@@ -1,0 +1,307 @@
+html,body{
+    margin: 0em;
+    padding: 0em;
+    background:rgba(34, 34, 34,0.9);
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    
+
+   
+}
+.header div{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.netflix{
+    margin-bottom: -19px;
+    background-attachment:fixed;
+
+}
+.nav{
+    background-image:linear-gradient(to bottom, rgba(1, 12, 29, 0.438), rgba(0, 0, 2, 0.938)),url(images/b.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    height: fit-content;
+
+
+}
+.header img{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    
+}
+.header button{
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    background-color: red;
+    padding: 10px;
+    border: none;
+    border-radius: 4.5px;
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+
+}
+.text{
+    text-align: center;
+    float: center;
+    
+}
+.h1{
+    font-size: 53px;
+}
+.h2{
+    font-size: 28px;
+}
+.h3{
+    font-size: 30px;
+}
+.button{
+    display: inline;
+    padding: 19.5px;
+    background-color: red;
+    border: none;
+    border-radius: 5.4px;
+    font-size: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+
+}
+.area{
+    padding: 20px;
+    border-radius: 5.4px;
+    width: 300px;
+    outline: none;
+    cursor: pointer;
+
+   
+}
+.tv img{
+    padding-left: 600px;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: initial;
+    padding-left: 30px;
+    padding-right: 100px;
+
+
+}
+#text1{
+    color: whitesmoke;
+    direction: ltr;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    color: whitesmoke;
+    font-size: 30px;
+    text-indent: 20px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 100px;
+
+
+
+
+
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 30px;
+    
+}
+.watch img{
+    padding-left: 400px;
+}
+.box4{
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    color: whitesmoke;
+    font-size: 30px;
+    text-indent: 20px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.mail{
+    text-align: center;
+}
+.cont div {
+    margin: 10px;
+    justify-content: center;
+}
+.qn1{
+    background:rgba(34, 34, 34,0.9);
+    margin-left: 400px; 
+    margin-right: 400px;
+    margin-top: 3px;
+    border-spacing: 100px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.qn2{
+    background:rgba(34, 34, 34,0.9);
+    margin-left: 400px; 
+    margin-right: 400px;
+    margin-top: 3px;
+    border-spacing: 100px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.qn3{
+    background:rgba(34, 34, 34,0.9);
+    margin-left: 400px; 
+    margin-right: 400px;
+    margin-top: 3px;
+    border-spacing: 100px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.qn4{
+    background:rgba(34, 34, 34,0.9);
+    margin-left: 400px; 
+    margin-right: 400px;
+    margin-top: 3px;
+    border-spacing: 100px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.qn5{
+    background:rgba(34, 34, 34,0.9);
+    margin-left: 400px; 
+    margin-right: 400px;
+    margin-top: 3px;
+    border-spacing: 100px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cont li{
+    list-style: none;
+
+}
+.box5{
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    color: whitesmoke;
+    text-indent: 160px;
+    text-align: justify;
+    padding-left: 200px;
+    
+}
+.box5 li{
+    list-style: none;
+
+}
+.footer{
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+@media screen and (max-width:1500px) {
+    .netflix{ 
+        float: none;
+        width: 100%;
+        height: fit-content;
+
+    }
+    .cont div{
+        flex-wrap:wrap;
+        float: none;
+    
+    }
+    .header button{
+        position:absolute;
+        right: 30px;
+        
+    }
+    .tv img{
+        padding-left: 0px;
+    }
+
+
+}
+@media screen and (max-width:1024px) {
+    body{
+    
+        background:  rgba(34, 34, 34,0.9);
+        
+    }
+
+    .netflix{ 
+        float:  none;
+    }
+    .header button{
+        position:absolute;
+        right: 0px;
+        
+    }
+    .tv img {
+        height: 300px;
+        width: 300px;
+    }
+    .box1{
+        padding-right: 20px;
+    }
+    .box5{
+        padding-left: 40px;
+    }
+    .watch img{
+        padding-left: 0px;
+    }
+
+
+}
+@media screen and (max-width:900px) {
+    body{
+        width: 100%;
+    }
+    .tv img{
+        height: 190px;
+        width: 180px;
+        padding-left: 0px;
+
+    }
+    .watch img{
+        height: 200px;
+        width: 300px;
+        padding-right: 0px;
+    }
+    .box5{
+        flex-wrap: wrap;
+        padding-right: 5px;
+
+    }
+
+
+
+}
+
